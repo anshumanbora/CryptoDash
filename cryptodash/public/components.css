@@ -1,0 +1,274 @@
+html{
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
+    background-color: black;
+
+}
+#root,body{
+    background-color: black;
+
+}
+.row{
+ /*This class was causing the page to overflow. Therefore set max-width*/
+ max-width: 100%;
+}
+.tableText{
+    font-size: 15px;
+    height: 40px;
+    color: lightgray;
+    background-color: #222222;
+    padding-top: 10px;
+}
+.tableText:hover{
+    color: white;
+    background-color: #323232;
+}
+.greenText{
+    color: mediumseagreen;
+}
+.rank{
+    background-color: cornflowerblue;
+    color: white;
+}
+.name{
+    background-color: black;
+    color: lightgray;
+}
+.price{
+    background-color: cornflowerblue;
+    color: white;
+}
+.gray{
+    background-color: #183818;
+}
+
+.red{
+    background-color: orangered;
+
+}
+.golden{
+    background-color: darkgoldenrod;
+}
+.navy{
+    background-color: indigo;
+}
+
+.black{
+    background-color: black;
+}
+.maroon{
+    background-color: maroon;
+}
+.darkcyan{
+    background-color: darkcyan;
+}
+.white{
+    background-color: gainsboro;
+}
+.fixed {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 50px;
+}
+
+.below-fixed{
+    padding-top: 120px;
+}
+.fixed-info{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 6;
+    width: 100%;
+    height: 200px;
+}
+
+.currentDetails{
+    height: 265px;
+
+}
+
+.header{
+    position: fixed;
+    top:0;
+    padding-top: 15px;
+    width: 100%;
+    height: 50px;
+    z-index: 999;
+    color:#dddddd;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: black;
+    padding-left: 7%;
+}
+
+.price_usd{
+    font-size: 30px;
+    font-family: "Courier New";
+}
+.symbol{
+    font-size: 65px;
+    font-weight:bold;
+    margin-left: 0;
+}
+
+.infoText{
+    animation: fadein 2s;
+    font-size: 13px;
+    margin-right: 30px;
+    margin-top: 10px;
+
+}
+
+.pointer{
+    cursor:pointer;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.tableHeader{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #121212;
+}
+.information{
+    margin-top: 42px;
+    margin-left: -30px;
+    color: #eee;
+
+    /*background-color: red;*/
+    /*padding-bottom: 100px;*/
+}
+
+.fontSize18{
+    font-size: 18px;
+}
+
+
+
+select {
+    border: 1px solid black;
+    color: black;
+    width: 10%;
+    padding-left: 5px;
+    padding-right: 5px;
+    -webkit-appearance: none;
+    margin-right: 10px;
+}
+input[type="submit"]{
+    background-color: #ddd;
+    margin: 10px;
+}
+
+form{
+    background-color: black;
+    position: fixed;
+    top:50px;
+    width: 100%;
+    height: 50px;
+    z-index: 999;
+    color: black;
+
+}
+label{
+    font-size: 10px;
+    font-family: 'Roboto';
+    margin: 10px;
+    color: #eeeeee;
+}
+
+.change{
+    font-size:10px;
+    width: 33.34%;
+    height: 55px;
+    float: right;
+    margin-right: 30px;
+}
+
+.arrow{
+
+    margin: 10px;
+    padding-left: -140px;
+
+    position: fixed;
+}
+
+.arrow-up {
+    margin-left: -40px;
+    margin-top: -200px;
+
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+
+    border-bottom: 20px solid greenyellow;
+    animation: fadein 2s;
+}
+
+.arrow-down {
+    margin-left: -40px;
+    margin-top: -195px;
+
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+
+    border-top: 20px solid orangered;
+    animation: fadein 2s;
+}
+
+.change-text{
+    font-size: 25px;
+}
+
+.metadata{
+    margin-left: 10%;
+    margin-top: 50px;
+    font-size:14px;
+    height: 55px;
+    color: #999;
+}
+.metadata-header{
+    font-weight: bold;
+    color: mediumseagreen;
+}
+button{
+    background-color: black;
+    border: hidden;
+}
+button:hover{
+    text-decoration: underline dashed;
+
+}
+.code-text{
+    background-color: #bbb;
+    color: black;
+}
+.code-text:hover{
+    background-color: paleturquoise;
+    color: darkblue;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: paleturquoise;
+    color: #dddddd;
+    width: 100%;
+    margin-top: 40px;
+}
+.before-footer{
+    padding-bottom: 60px;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

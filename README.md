@@ -36,3 +36,7 @@ The data have been sourced from API provided here: https://coinmarketcap.com/api
         "last_updated": "1472762067"
     }
 ```
+#### Screen Grabs
+
+![Main list](https://raw.githubusercontent.com/anshumanbora/CryptoDash/master/image/screen2.PNG)
+![Details](https://raw.githubusercontent.com/anshumanbora/CryptoDash/master/image/screen1.PNG)
